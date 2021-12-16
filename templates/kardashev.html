@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARDASHEV</title>
+</head>
+<body>
+    <div class="container-md p-3">
+        <h2></h2>
+        <button type="button" class="btn btn-outline-info"><a href="/"class="btn btn-info btn-info btn-block"aria-pressed="true">MAIN PAGE</a>
+        <button type="button" class="btn btn-outline-primary"><a href="./future.html"class="btn btn-primary btn-primary btn-block"aria-pressed="true">FUTURE</a>
+        <button type="button" class="btn btn-outline-secondary"><a href="./technology.html"class="btn btn-secondary btn-secondary btn-block"aria-pressed="true">TECHNOLOGY</a>
+        <button type="button" class="btn btn-outline-danger"><a href="./universe.html"class="btn btn-danger btn-danger btn-block"aria-pressed="true">UNIVERSE</a>                                
+        <button type="button" class="btn btn-outline-dark"><a href="./dark.html"class="btn btn-dark btn-secondary btn-block"aria-pressed="true">DARK MATTER AND ENERGY</a>  
+        </div>
+    <style>
+        body{
+            background-image: url("../../static/mx16.jpg");
+        }
+    </style>
+    <DIV>
+        <div class="container-md p-5 my-5 border  bg-info text-white text-center ">
+            <h2>KARDASHEV SCALE</h2>
+        <h5>STAGE 1</h5>
+        <h4>Kardashev Scale - We are type 0..72 civilization!</h4>
+    </DIV>
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{url_for('static', filename='mx25.gif')}}" alt="Los Angeles" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>KARDASHEV SCALE STAGE 1</h3>
+          <p>HARVESTING EARTH ENERGY</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='mx23.gif')}}" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>KARDASHEV SCALE STAGE 2</h3>
+          <p>DYSON SPHERE-HARVESTING SUN ENERGY</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='mx24.gif')}}" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>KARDASHEV SCALE STAGE 3</h3>
+          <p>HARVESTING ENERGY FROM THE GALAXY</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+    <!--BackEnd-->
+    <div class="container-fluid p-3 bg-secondary text-white">
+        <h2>The Kardashev Scale is a means of measuring a civilization's progress.</h2>  
+    </div>
+    <div class="container-fluid p-5 bg-dark text-white">
+      <p>
+        The Kardashev scale is a method of measuring a civilization's level of technological advancement based on the amount 
+        of energy it is able to use. The measure was proposed by Soviet astronomer Nikolai Kardashev in 1964
+      </p>
+      <p>
+        <p>
+          What is a Type 0 civilization?
+        </p>
+        A Type 0 Civilization, as you can imagine, is one that has not yet been able to harness all the energy of its home planet.
+        It is, therefore, a sub-global one that harnesses power from raw materials. They do not yet have the ability to leave their
+        home planet but are making steady progress towards it
+      </p>
+      <p>
+        Where are humans on the Kardashev scale?
+      </p>
+        <p> If working only within the basic categories, humans are a type I civilization on the Kardashev scale  
+          (a civilization with a working Dyson sphere structure harvesting its star's light would qualify as type II)</p>
+          <p>
+            What if we become a Type 3 civilization?
+          </p>
+          <p>  
+            As a Type III civilization, we would not need resource management with almost an infinite energy supply. 
+            ... Over time, we would eventually exhaust our entire galaxy's resources. In this case, we'd need to advance to
+            become a Type IV or V civilization to explore and harvest energy from the rest of the universe.
+          </p>
+    </div>
+
+</body>
+</html>
+    

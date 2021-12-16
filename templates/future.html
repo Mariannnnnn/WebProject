@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURE</title>
+</head>
+<body>
+    <div class="container-md p-3">
+        <h2></h2>
+        <button type="button" class="btn btn-outline-primary"><a href="/"class="btn btn-primary btn-primary btn-block"aria-pressed="true">MAIN PAGE</a>
+        <button type="button" class="btn btn-outline-secondary"><a href="./technology.html"class="btn btn-secondary btn-secondary btn-block"aria-pressed="true">TECHNOLOGY</a>
+        <button type="button" class="btn btn-outline-danger"><a href="./universe.html"class="btn btn-danger btn-danger btn-block"aria-pressed="true">UNIVERSE</a>
+        <button type="button" class="btn btn-outline-info"><a href="./kardashev.html"class="btn btn-info btn-secondary btn-block"aria-pressed="true">KARDASHEV SCALE</a>                                
+        <button type="button" class="btn btn-outline-dark"><a href="./dark.html"class="btn btn-dark btn-secondary btn-block"aria-pressed="true">DARK MATTER AND ENERGY</a>  
+        </div>
+    <style>
+        body{
+            background-image: url("../../static/mx17.jpg");
+        }
+    </style>
+    <DIV>
+        <div class="container p-5 my-5 border  bg-primary text-white text-center ">
+            <h2> FUTURE</h2>
+            <h3>is comming in name of James Webb telescope.</h3>
+    </DIV>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{url_for('static', filename='jw.jpg')}}" alt="Los Angeles" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <p></p>
+              <h4>JAMES WEBB TELESCOPE LAST PREPARATIONS.</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{url_for('static', filename='jw2.jpg')}}" alt="Chicago" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <h4></h4>
+              <p></p>
+              <h4>JAMES WEBB TELESCOPE WILL LAUNCH AT 22th DECEMBER 2021.</h4>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="{{url_for('static', filename='jw1.jpg')}}" alt="New York" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+              <P></P>
+              <h4>JAMES WEBB TELESCOPE ON PLACE BEYOND MOON</H4>
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+  <!--BackEnd-->
+  <div class="container-fluid p-3 bg-secondary text-white">
+    <h2>JAMES WEBB TELESCOPE</h2>  
+    <h4>Will launch 22 December 2021</h4>
+</div>
+<div class="container-fluid p-5 bg-dark text-white">
+  <p>
+    Who is James Webb?
+  </p>
+    <p> 
+      James Edwin Webb (October 7, 1906 – March 27, 1992) was an American government official who served 
+      as Undersecretary of State from 1949–1952. He was also the second appointed administrator of
+      NASA from February 14, 1961, to October 7, 1968.
+    </p>
+    <p>
+      NASA is set to launch the James Webb Space Telescope — the world's most powerful space observatory.
+    Webb's first year will include bold searches for primordial galaxies and habitable planets.
+    Webb could spot gold being forged in violent cosmic collisions and lava raining on distant planets.</p>
+    <p>
+      Webb's infrared vision makes it a powerful time machine that will peer back over 13.5 billion years,
+      to a time shortly after the Big Bang. Webb's infrared sensitivity will not only look back farther
+      in time but will also reveal dramatically more information about stars and galaxies in the early Universe.
+    </p>
+    <p>
+      The telescope will be placed in orbit about a million miles from Earth, roughly four times the distance of our planet from the Moon.
+      Unlike Hubble, the current premier space telescope that revolves around the planet, Webb will orbit the Sun.
+    </p>
+    <p>
+      The telescope is designed to last at least five and a half years (six months calibration plus five years science operations),
+      but with a goal of ten years. The limiting factor is expected to be fuel to maintain its halo orbit, of which there is enough 
+      for at least ten years.
+    </p>
+</div>
+
+</body>
+</html>

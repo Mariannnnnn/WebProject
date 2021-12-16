@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARK MATTER</title>
+</head>
+<body>
+    <div class="container-md p-3">
+        <h2></h2>
+        <button type="button" class="btn btn-outline-dark"><a href="/"class="btn btn-dark btn-dark btn-block"aria-pressed="true">MAIN PAGE</a>
+        <button type="button" class="btn btn-outline-primary"><a href="./future.html"class="btn btn-primary btn-primary btn-block"aria-pressed="true">FUTURE</a>
+        <button type="button" class="btn btn-outline-secondary"><a href="./technology.html"class="btn btn-secondary btn-secondary btn-block"aria-pressed="true">TECHNOLOGY</a>
+        <button type="button" class="btn btn-outline-danger"><a href="./universe.html"class="btn btn-danger btn-danger btn-block"aria-pressed="true">UNIVERSE</a>                                
+        <button type="button" class="btn btn-outline-info"><a href="./kardashev.html"class="btn btn-info btn-info btn-block"aria-pressed="true">KARDASHEV SCALE</a>  
+        </div>
+    <style>
+        body {
+            background-image: url("../../static/mx5.jpg");
+        }
+    </style>
+    <DIV>
+        <div class="container-md p-5 my-5  border bg-dark text-white text-center ">
+            <h2>DARK MATTER</h2>
+        <h3> COSMOS </h3>
+    </DIV>
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{url_for('static', filename='mx20.jpg')}}" alt="Los Angeles" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>DARK MATTER THEORY</h3>
+          <p>COSMOS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='mx21.jpg')}}" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>DARK MATTER THEORY</h3>
+          <p>COSMOS</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='mx22.jpg')}}" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>DARK MATTER THEORY</h3>
+          <p>COSMOS</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+<!--BackEnd-->
+<div class="container-fluid p-3 bg-secondary text-white">
+    <h2>DARK MATTER AND ENERGY</h2>  
+</div>
+<div class="container-fluid p-5 bg-dark text-white">
+    
+      <p>
+        Dark matter is a hypothetical form of matter thought to account for approximately 85% of the matter in the universe.
+        Its presence is implied in a variety of astrophysical observations, including gravitational effects that cannot be explained 
+        by accepted theories of gravity unless more matter is present than can be seen. For this reason, most experts think that dark matter
+        is abundant in the universe and that it has had a strong influence on its structure and evolution. Dark matter is called dark because
+        it does not appear to interact with the electromagnetic field, which means it does not absorb, reflect or emit electromagnetic radiation,
+        and is therefore difficult to detect.
+      </p>
+      <p>
+        What is dark energy in simple terms?
+      </p>
+      <p> 
+      Dark energy is the name given to the mysterious force that's causing the rate of expansion of our universe
+      to accelerate over time, rather than to slow down. That's contrary to what one might expect from a universe that began in a Big Bang.
+      </p>
+      <p>
+      So the mystery continues. Another explanation for dark energy is that it is a new kind of dynamical
+      energy fluid or field, something that fills all of space but something whose effect on the expansion
+      of the universe is the opposite of that of matter and normal energy.</p>
+      
+    </div>
+
+
+</body>
+</html>
